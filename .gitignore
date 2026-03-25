@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
+
+# Dataset (IMPORTANT)
+dataset/
+VisDrone2019-DET-train/
+VisDrone2019-DET-val/
+
+# Images (if stored separately)
+*.jpg
+*.png
+
+# BUT keep sample images if needed
+!bus.jpg
+
+# Training outputs
+runs/
+
+# Model weights (optional — include if small)
+
+
+# Mac system files
+.DS_Store
